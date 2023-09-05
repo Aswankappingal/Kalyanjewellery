@@ -1,0 +1,135 @@
+/* icons nav */
+.collections a{
+    font-size: 12px;
+    margin-right: 10px;
+    color: gray;
+    text-decoration: none;
+    align-items: center;
+}
+.collections ion-icon{
+    margin-right: 10px;
+    padding: 5px;
+    border: 1px solid red;
+    background-color: red;
+    border-radius: 100%;
+    color: white;
+}
+.collections a:hover{
+    color: black;
+}
+
+/* navsection */
+.navimage img{
+    width: 45%;
+    margin-top: 30px;
+}
+.navlinks a{
+    font-size: 15px;
+    text-decoration: none;
+    color: #777171;
+    font-weight: normal;
+    
+}
+.navlinks{
+    padding-top: 60px;
+}
+.navlinks a:hover{
+       border-bottom: 1px solid #e30613;
+       color: #e30613;
+}
+.ourb a{
+    color: #e30613;
+    border-bottom: 1px solid #e30613;
+}
+/* banner-image 1 */
+.banner-jew img {
+    width: 100%;
+    height: 400px;
+    
+}
+
+.links-verth a {
+    text-decoration: none;
+    font-size: 10px;
+    text-transform: uppercase;
+    color: #a8a7aa;
+
+}
+
+.links-verth {
+    margin-top: 20px;
+    margin-left: 16%;
+}
+
+.border-red1 {
+    border-bottom: 1px solid red;
+    width: 72%;
+    margin: auto;
+    padding-top: 20px;
+}
+
+/* center border  */
+.border-left {
+    border-left: 1px solid black;
+    height: 80px;
+    margin-top: 70px;
+    margin-left: 50%;
+
+}
+
+/* head section  */
+.head-section {
+    text-align: center;
+}
+
+.paragraph {
+    text-align: center;
+    margin: auto;
+    width: 75%;
+}
+
+.paragraph p {
+    font-size: 18px;
+   
+}
+/* back dark yellow section  */
+.back-colors{
+    background-color: rgb(102, 102, 65);
+    margin: auto;
+    width: 60%;
+}
+.border-about{
+    border-bottom: 3px solid #c9c9c9;
+    width: 28%;
+}
+.contents-about h3{
+    color: #e1e1e1;
+    
+}
+.para-about{
+    color: #e1e1e1;
+    /* text-align: center; */
+    font-size: 32px;
+}
+@media(min-width:320px) and (max-width:575.98px){
+    .collections a{
+        font-size: 7px;
+    }
+   .collections ion-icon{
+        font-size: 7px;
+        margin-right: 10px;
+        padding: 5px;
+        margin-top: 5px;
+   }
+   .navimage img{
+    width: 33%;
+    margin-top: 20px;
+}
+/* banner-image 1 */
+.banner-jew img {
+    width: 100%;
+    height: 200px;
+    margin-top: 30px;
+    
+}
+}
